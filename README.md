@@ -18,8 +18,12 @@
 6. Run the setup script (The script will download required libraries, remove unnecessary software and setup the camera):    
     > sudo sh setup.sh
 
-7. Open a web browser and go to 'localhost:8888/lab'
+7. Install Gparted and fix disk space:
+    > sudo apt install gparted
+    > sudo gparted
 
-8. Find the CINF135 directory from the left menu.
+8. Open a web browser and go to 'localhost:8888/lab'
 
-9. Open setup.ipynb and click run all.
+9. Find the CINF135 directory from the left menu.
+
+10. Open setup.ipynb and click run all.
